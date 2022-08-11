@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro Component With Sign-Up Form</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="form-container">
+    <div class="text-container">
+      <h1 class="titulo">Learn to code by watching others</h1>
+      <p class="parrafo">See how experienced developers solve problems in real-time. 
+        Watching scripted tutorials is great, but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="form-container">
+      <div class="promotion"><span class="span-promocion">Try it free 7 days</span> then $20/mo. thereafter</div>
+      <form action="" id="formulario">
+
+        <div class="input-container">
+          <input type="text" placeholder="First Name" id="name" class="inputs">
+          <img src="./images/icon-error.svg" alt="Alert" class="alerta">
+          <span class="messageName, spanAlert" >First Name cannot be empty</span>
+        </div>
+
+        <div class="input-container">
+          <input type="text" placeholder="Last Name" id="last-name" class="inputs">
+          <img src="./images/icon-error.svg" alt="Alert" class="alerta">
+          <span class="message Lastname, spanAlert">Last Name cannot be empty</span>
+        </div>
+
+        <div class="input-container">
+          <input type="email" placeholder="Email Address" id="email" class="inputs">
+          <img src="./images/icon-error.svg" alt="Alert" class="alerta">
+          <span class="message email, spanAlert">Looks like this is not an Email</span>
+        </div>
+
+        <div class="input-container">
+          <input type="password" placeholder="Password" id="password" class="inputs">
+          <img src="./images/icon-error.svg" alt="Alert" class="alerta">
+          <span class="message password, spanAlert">Password cannot be empty</span>
+        </div>
+
+        <button  id="button-form">CLAIM YOUR FREE TRIAL</button>
+        <p class="parrafo-form">By clicking the button, you are agreeing to our <span class="span-terminos">Terms and Services</span></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- <script src="./main.js"></script> -->
+  <script src="./main1.js"></script>
+
+</body>
+</html>
+
